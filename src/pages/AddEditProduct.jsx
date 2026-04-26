@@ -407,7 +407,7 @@ const removeVariant = (index) => {
           <h2 className="font-semibold text-gray-700 border-b pb-2">Product Flags</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {[
-              { name: 'inStock', label: '✅ In Stock' },
+              { name: 'inStock', label: '✅ Available' },
               { name: 'isNewArrival', label: '✨ New Arrival' },
               { name: 'isBestSeller', label: '🔥 Best Seller' },
               { name: 'isFeatured', label: '⭐ Featured' },
