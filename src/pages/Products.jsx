@@ -127,8 +127,8 @@ export default function Products() {
                     {/* Stock */}
                     <td className="px-6 py-4">
                       {product.inStock
-                        ? <span className="bg-green-100 text-green-700 px-2 py-0.5 rounded-full text-xs">In Stock</span>
-                        : <span className="bg-red-100 text-red-700 px-2 py-0.5 rounded-full text-xs">Out</span>
+                        ? <span className="bg-green-100 text-green-700 px-2 py-0.5 rounded-full text-xs">Available</span>
+                        : <span className="bg-red-100 text-red-700 px-2 py-0.5 rounded-full text-xs">Unavailabe</span>
                       }
                     </td>
 
