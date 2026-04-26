@@ -75,7 +75,7 @@ export default function Dashboard() {
                 <td className="py-3 text-gray-500">{p.category?.name}</td>
                 <td className="py-3">
                   {p.inStock
-                    ? <span className="bg-green-100 text-green-700 px-2 py-0.5 rounded-full text-xs">In Stock</span>
+                    ? <span className="bg-green-100 text-green-700 px-2 py-0.5 rounded-full text-xs">Availabe</span>
                     : <span className="bg-red-100 text-red-700 px-2 py-0.5 rounded-full text-xs">Out</span>
                   }
                 </td>
